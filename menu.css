@@ -1,0 +1,48 @@
+body {
+  background: linear-gradient(135deg, #ff6f61, #f9d423, #24c6dc, #5433ff);
+  min-height: 100vh;
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menu-container {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 24px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  padding: 48px 32px;
+  text-align: center;
+}
+.menu-container h1 {
+  font-size: 3rem;
+  color: #5433ff;
+  margin-bottom: 32px;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 8px #f9d42344;
+}
+.menu-btn {
+  display: block;
+  width: 200px;
+  margin: 16px auto;
+  padding: 16px 0;
+  font-size: 1.3rem;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.2s, color 0.2s, transform 0.1s;
+  box-shadow: 0 4px 16px 0 rgba(36, 198, 220, 0.2);
+}
+.menu-btn.play {
+  background: linear-gradient(90deg, #24c6dc, #5433ff);
+  color: #fff;
+}
+.menu-btn.exit {
+  background: linear-gradient(90deg, #ff6f61, #f9d423);
+  color: #fff;
+}
+.menu-btn:hover {
+  transform: scale(1.05);
+  filter: brightness(1.1);
+}
